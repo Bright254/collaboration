@@ -1,6 +1,15 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
-.btn{
+.bnt{
     background-color: black;
     color:red;
+    margin-right:50px;
+    width:90px;
+    height:200px;
+    font-size: 35px;
+}
+.buttn{
+    @include flex(space-between,center);
+    padding:700px;
+    
 }

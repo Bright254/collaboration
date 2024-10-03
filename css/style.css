@@ -1,11 +1,21 @@
-body {
-  background-color: blue;
-}
-
-.btn {
+.bnt {
   background-color: black;
   color: red;
+  margin-right: 50px;
+  width: 90px;
+  height: 200px;
+  font-size: 35px;
 }
+
+.buttn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+  padding: 700px;
+}
+
 nav {
   background-color: #F4F7FB;
 }
@@ -14,13 +24,13 @@ nav .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row row;
-  flex-wrap: no-wrap no-wrap;
+  flex-wrap: no-wrap;
+  flex-direction: center;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row row;
-  flex-wrap: no-wrap no-wrap;
+  flex-wrap: no-wrap;
+  flex-direction: center;
 }
