@@ -3,11 +3,12 @@
 nav{
     background-color: $light-grey;
     .nav{
-        padding: 20px;
+        padding: 10px;
        @include flex(space-between,center)
     }
     ul{
-        @include flex(space-between,center)
-      
-    }  
-}
+        @include flex(space-between,center);
+        list-style: none;
+        gap:10px
+    }
+}  
