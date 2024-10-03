@@ -6,3 +6,21 @@ body {
   background-color: black;
   color: red;
 }
+nav {
+  background-color: #F4F7FB;
+}
+nav .nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row row;
+  flex-wrap: no-wrap no-wrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row row;
+  flex-wrap: no-wrap no-wrap;
+}
