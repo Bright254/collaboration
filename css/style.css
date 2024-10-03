@@ -1,26 +1,25 @@
-body {
-  background-color: blue;
-}
-
 .btn {
   background-color: black;
   color: red;
 }
+
 nav {
   background-color: #F4F7FB;
 }
 nav .nav {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row row;
-  flex-wrap: no-wrap no-wrap;
+  flex-wrap: no-wrap;
+  flex-direction: center;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row row;
-  flex-wrap: no-wrap no-wrap;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+  list-style: none;
+  gap: 10px;
 }
