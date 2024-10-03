@@ -1,3 +1,11 @@
+body {
+  background-color: blue;
+}
+
+.btn {
+  background-color: black;
+  color: red;
+}
 nav {
   background-color: #F4F7FB;
 }
